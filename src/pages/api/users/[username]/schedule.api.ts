@@ -4,7 +4,6 @@ import { z } from 'zod'
 import dayjs from 'dayjs'
 import { google } from 'googleapis'
 import { getGoogleOAthToken } from '@/lib/google'
-import { randomUUID } from 'crypto'
 
 export default async function handler(
   req: NextApiRequest,
